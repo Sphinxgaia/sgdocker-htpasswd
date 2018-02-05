@@ -8,7 +8,7 @@ echo
 
 # Run Command
 docker container run --rm -ti sphinxgaia/tools-htpasswd \
-$myusername $mypassword >> .htpasswd
+"$myusername" "$mypassword" >> .htpasswd
 
 # exit info
 echo "You will find you data in .htpasswd"
